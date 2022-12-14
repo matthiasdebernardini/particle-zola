@@ -1,32 +1,30 @@
 {% macro about() %}
  <div class="user-details">
-  <h1> My Expertise </h1>
+  <h1> T-Shaped developer with Bitcoin and Rust as my  </h1>
   <p> {{ config.extra.user_description }} </p>
 </div>
   <div class="user">
     <div class="tech">
-      <h2>Design</h2>
-      <i class="devicon-html5-plain-wordmark"></i>
-      <i class="devicon-bootstrap-plain-wordmark colored"></i>
-      <i class="devicon-sass-original colored"></i>
-      <p>Mumblecore hexagon kombucha, pitchfork four loko raclette intelligentsia master cleanse.
-        Vinyl XOXO lumbersexual</p>
-    </div>
-    <div class="tech">
-      <h2>Code</h2>
-      <i class="devicon-javascript-plain colored"></i>
-      <i class="devicon-react-original-wordmark colored"></i>
-      <i class="devicon-nodejs-plain-wordmark"></i>
-      <p>Mumblecore hexagon kombucha, pitchfork four loko raclette intelligentsia master cleanse.
-        Vinyl XOXO lumbersexual</p>
+      <h2>Bitcoin</h2>
+      <p>Self-taught bitcoin developer, running nodes, using sats on lightning, getting involved with the community.</p>
+      <p>Bitcoin is a strong defense system that anyone can use to protect themselves.</p>
     </div>
     <div class="tech">
       <h2>Tools</h2>
       <i class="devicon-git-plain"></i>
-      <i class="devicon-gulp-plain colored"></i>
-      <i class="devicon-atom-original-wordmark"></i>
-      <p>Mumblecore hexagon kombucha, pitchfork four loko raclette intelligentsia master cleanse.
-        Vinyl XOXO lumbersexual</p>
+      <i class="devicon-nixos-plain"></i>
+      <i class="devicon-ubuntu-plain"></i>
+      <i class="devicon-debian-original-wordmark"></i>
+      <i class="devicon-digitalocean-original-wordmark"></i>
+      <p>I've deployed dozens of servers all over the world, locally, in the cloud and with on-premise hardware.</p>
+      <p>By using my strong unix skillset, I've made short work of a variety of jobs.</p>
+    </div>
+    <div class="tech">
+      <h2>Languages</h2>
+      <i class="devicon-python-original-wordmark"></i>
+      <i class="devicon-rust-plain"></i>
+      <p>I've studied and used many languages throughout school such as C, C++, Java, Python, Assembly, and Haskell but also other languages on my own time such as Go and Rust.</p>
+      <p>Rust is by far my prefered tool due to cargo, its functional approach and the approachable rust community. All things considered, Rust is the best tool for bringing crypto to the world.</p>
     </div>
 </div>
 {% endmacro about %}
@@ -37,28 +35,27 @@
 </div>
 <div class="user-projects">
   <div class="images-right">
-    <img alt="mountains" src="{{ config.base_url ~ "/img/mountains.jpg" }}" />
+    <img alt="mountains" src="{{ config.base_url ~ "/img/osmium.jpg" }}" />
   </div>
   <div class="contents">
-    <h3> Project Title </h3>
+    <h3> Osmium Password Manager </h3>
     <ul>
-      <li> Featured Skills</li>
+      <li> A BIP-85 based password manager that lets users have multiple passwords by only storing a single seed.</li>
     </ul>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    <a class="project-link" href="#">Check it out</a>
+    <a class="project-link" href="https://github.com/matthiasdebernardini/osmium">Check out the repo</a>
   </div>
 </div>
 <div class="user-projects">
   <div class="images-left">
-    <img alt="mountains" src="{{ config.base_url ~ "/img/skate.jpg" }}" />
+    <img alt="mountains" src="{{ config.base_url ~ "/img/magnet.jpg" }}" />
   </div>
   <div class="contents-right">
-    <h3> Project Title </h3>
+    <h3> Magnet Wallet </h3>
     <ul>
-      <li> Featured Skills</li>
+      <li> A bitcoin ‘test as default’ wallet that attracts developers, made possible by BDK and egui.</li>
     </ul>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    <a class="project-link" href="#">Check it out</a>
+    <a class="project-link" href="https://github.com/matthiasdebernardini/MagnetWallet">Check out the repo</a>
   </div>
 </div>
 {% endmacro projects %}
